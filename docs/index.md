@@ -74,6 +74,7 @@ Run ```scripts\batch_recompress.bat``` without arguments to get help.
 | Argument  | Description
 |----------|--------------
 | `src_im_wildcard` | Process images matching this wildcard pattern (e.g. './*_RGB.TIF').  Recompressed files are written to new files named '*_CMP.tif'.
+
 ### Example
 ```shell
 scripts\batch_recompress.bat .\data\inputs\test_example\*_RGB.tif
