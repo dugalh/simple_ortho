@@ -3,6 +3,7 @@ Fast and simple orthorectification of images with known DEM and camera model.  D
 
 ## Installation
 Using `conda` to manage packages and dependencies is recommended.  The [Minconda](https://docs.conda.io/en/latest/miniconda.html) installation includes a minimal `conda`.
+
 1) Create a conda environment and install dependencies:
 ```shell
 conda create -n <environment name> python=3.8 -c conda-forge 
@@ -77,7 +78,7 @@ Run ```scripts\batch_recompress.bat``` without arguments to get help.
 
 ### Example
 ```shell
-scripts\batch_recompress.bat .\data\inputs\test_example\*_RGB.tif
+scripts\\batch_recompress.bat .\\data\\inputs\\test_example\\*_RGB.tif
 ```
 
 ## File formats
